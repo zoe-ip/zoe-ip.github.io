@@ -21,8 +21,8 @@ build:
       html:
 
 #  commands:
-        - pip install hugo-bin
-        - hugo
+        - sudo snap install hugo
+        - hugo --gc --destination $READTHEDOCS_OUTPUT/html
 #  formats: all
     # Write down your commands here to:
     #
