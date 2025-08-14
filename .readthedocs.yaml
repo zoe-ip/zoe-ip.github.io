@@ -21,7 +21,7 @@ build:
       html:
 
 #  commands:
-        - sudo snap install hugo
+        - snap install hugo
         - hugo --gc --destination $READTHEDOCS_OUTPUT/html
 #  formats: all
     # Write down your commands here to:
