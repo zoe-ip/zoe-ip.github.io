@@ -21,6 +21,8 @@ build:
       html:
 
 #  commands:
+        - apt update
+        - apt install snapd
         - snap install hugo
         - hugo --gc --destination $READTHEDOCS_OUTPUT/html
 #  formats: all
